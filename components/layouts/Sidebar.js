@@ -45,72 +45,72 @@ function Sidebar({ items }) {
                 <ul class="nav-flyout">
                   <li>
                     <a href="#">
-                      <i class="ion-ios-flame-outline"></i>Burn
+                      <i class="ion-ios-flame-outline"></i>PAD
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-lightbulb-outline"></i>Bulbs
+                      <i class="ion-ios-lightbulb-outline"></i>Big Five
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-location-outline"></i>Where You
+                      <i class="ion-ios-location-outline"></i>Emotion
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-locked-outline"></i>On Lock
+                      <i class="ion-ios-locked-outline"></i>Mood
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>Personality
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>Satisfaction
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>Nonverbal Behavior
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>Affect
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>Empathy
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>Rapport
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>Impression
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>Social Perception
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>User
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
+                      <i class="ion-ios-navigate-outline"></i>Interaction
                     </a>
                   </li>
                 </ul>
