@@ -19,241 +19,368 @@ function Sidebar({ items }) {
       <section class="app">
         <aside class="sidebar">
           <header>
-        <img src="../../logo.png" id="logo" alt="aEi.ai"/>
-      </header>
+            <img src="../../logo.png" id="logo" alt="aEi.ai" />
+          </header>
           <nav class="sidebar-nav">
             <ul>
               <li>
                 <Link href="./introduction">
-                <a >
-                <i class="material-icons">description</i> <span>Introduction</span>
-                </a>
+                  <a>
+                    <i class="material-icons">description</i>{" "}
+                    <span>Introduction</span>
+                  </a>
                 </Link>
-
               </li>
               <li>
-                <a href="#">
-                <i class="material-icons">layers</i>{" "}
-                  <span class="">Architecture</span>
-                </a>
+                <Link href="./architecture">
+                  <a>
+                    <i class="material-icons">layers</i>{" "}
+                    <span class="">Architecture</span>
+                  </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
-                <i class="fa fa-sitemap"></i>
-                  <span class="">Data Structures</span>
-                </a>
+                <Link href="./">
+                  <a>
+                    <i class="fa fa-sitemap"></i>
+                    <span class="">Data Structures</span>
+                  </a>
+                </Link>
                 <ul class="nav-flyout">
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-flame-outline"></i>PAD
-                    </a>
+                    <Link href="./pad">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>PAD
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-lightbulb-outline"></i>Big Five
-                    </a>
+                    <Link href="./big-five">
+                      <a>
+                        <i class="ion-ios-lightbulb-outline"></i>Big Five
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-location-outline"></i>Emotion
-                    </a>
+                    <Link href="./emotion">
+                      <a>
+                        <i class="ion-ios-location-outline"></i>Emotion
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-locked-outline"></i>Mood
-                    </a>
+                    <Link href="./mood">
+                      <a>
+                        <i class="ion-ios-locked-outline"></i>Mood
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Personality
-                    </a>
+                    <Link href="./personality">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>Personality
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Satisfaction
-                    </a>
+                    <Link href="./satisfaction">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>Satisfaction
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Nonverbal Behavior
-                    </a>
+                    <Link href="./nonverbal-behavior">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>Nonverbal
+                        Behavior
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Affect
-                    </a>
+                    <Link href="./affect">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>Affect
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Empathy
-                    </a>
+                    <Link href="./empathy">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>Empathy
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Rapport
-                    </a>
+                    <Link href="./rapport">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>Rapport
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Impression
-                    </a>
+                    <Link href="./imporession">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>Impression
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Social Perception
-                    </a>
+                    <Link href="./social-perception">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>Social
+                        Perception
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>User
-                    </a>
+                    <Link href="./user">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>User
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Interaction
-                    </a>
+                    <Link href="./interaction">
+                      <a>
+                        <i class="ion-ios-navigate-outline"></i>Interaction
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               <li>
-                <a href="#">
-                <i class="material-icons">report_problem</i>{" "}
-                  <span class="">Error Handling</span>
-                </a>
+                <Link href="#">
+                  <a>
+                    <i class="material-icons">report_problem</i>{" "}
+                    <span class="">Error Handling</span>
+                  </a>
+                </Link>
+              </li>
+
+              <li>
+                <Link href="api">
+                  <a>
+                    <i class="material-icons">http</i> <span class="">API</span>
+                  </a>
+                </Link>
                 <ul class="nav-flyout">
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-flame-outline"></i>Burn
-                    </a>
+                    <Link href="./register">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Register New
+                        Account
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-lightbulb-outline"></i>Bulbs
-                    </a>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Authenticate client
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-location-outline"></i>Where You
-                    </a>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Create New User
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-locked-outline"></i>On Lock
-                    </a>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Users
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
-                    </a>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Mood
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Personality
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Satisfaction
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Empathy
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Emotion
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Social
+                        Perception
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get New Interaction
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Interactions
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Add User To
+                        Interaction
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Get Remove User
+                        From Interaction
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>
+                        Send Text
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>
+                        Send Image
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>
+                        Analyze Multiple Inputs
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>
+                        Paid Queries
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>
+                        Endpoint Queries
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>
+                        Free Queries
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>
+                        Remaining Free Queries
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>
+                        Update Account Status
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               <li>
-                <a href="#">
-                <i class="material-icons">http</i>{" "}
-                  <span class="">API</span>
-                </a>
-                <ul class="nav-flyout">
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-flame-outline"></i>Burn
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-lightbulb-outline"></i>Bulbs
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-location-outline"></i>Where You
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-locked-outline"></i>On Lock
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
-                    </a>
-                  </li>
-                </ul>
-              </li>
-
-              <li>
-
-                <a href="#">
-                <i class="material-icons">call_split</i>{" "}
-                  <span class="">Versioning</span>
-                </a>
-
+                <Link href="./versioning">
+                  <a>
+                    <i class="material-icons">call_split</i>{" "}
+                    <span class="">Versioning</span>
+                  </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
-                <i class="fa fa-code"></i>{" "}
-                  <span class="">Sample Code</span>
-                </a>
+                <Link href="./sample-code">
+                  <a href="#">
+                    <i class="fa fa-code"></i> <span class="">Sample Code</span>
+                  </a>
+                </Link>
                 <ul class="nav-flyout">
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-filing-outline"></i>File Cab
-                    </a>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Java
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-information-outline"></i>Infos
-                    </a>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Python
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="ion-ios-paperplane-outline"></i>Planes
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ion-android-star-outline"></i>Shop
-                    </a>
+                    <Link href="">
+                      <a>
+                        <i class="ion-ios-flame-outline"></i>Curl
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="#">
-                <i class="material-icons">live_help</i>{" "}
-                  <span class="">Help</span>
-                </a>
-                <ul class="nav-flyout">
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-flame-outline"></i>Burn
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-lightbulb-outline"></i>Bulbs
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-location-outline"></i>Where You
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-locked-outline"></i>On Lock
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="ion-ios-navigate-outline"></i>Ghostface
-                    </a>
-                  </li>
-                </ul>
+                <Link href="./help">
+                  <a href="#">
+                    <i class="material-icons">live_help</i>{" "}
+                    <span class="">Help</span>
+                  </a>
+                </Link>
               </li>
-
             </ul>
           </nav>
         </aside>
