@@ -48,9 +48,9 @@ function Sidebar({ items }) {
                 </Link>
                 <ul class="nav-flyout">
                   <li>
-                    <Link href="./pad">
+                    <Link href="./PAD">
                       <a>
-                        <i class="ion-ios-flame-outline"></i>PAD
+                        PAD
                       </a>
                     </Link>
                   </li>

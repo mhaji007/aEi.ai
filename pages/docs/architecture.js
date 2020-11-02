@@ -4,7 +4,7 @@ import DocsLayout from "../../components/layouts/docs";
 const architecture = () => {
   return (
     <div id="architecture" class="card">
-    <div class="card-header card-header-primary" style={{background:"linear-gradient(60deg, #391141, #8e24aa !important"}} >
+    <div className="card-header card-header-primary" style={{background:"linear-gradient(60deg, #391141, #8e24aa)"}} >
         <h2 id="h2_arch_1" class="my-0 font-weight-normal text-white" >Architecture</h2>
     </div>
     <div class="card-body">
