@@ -55,7 +55,7 @@ function Sidebar({ items }) {
                     </Link>
                   </li>
                   <li>
-                    <Link href="./big-five">
+                    <Link href="./big_five">
                       <a>
                         <i class="ion-ios-lightbulb-outline"></i>Big Five
                       </a>
