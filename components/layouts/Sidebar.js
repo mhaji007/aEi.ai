@@ -90,7 +90,7 @@ function Sidebar({ items }) {
                     </Link>
                   </li>
                   <li>
-                    <Link href="./nonverbal-behavior">
+                    <Link href="./nvb">
                       <a>
                         <i class="ion-ios-navigate-outline"></i>Nonverbal
                         Behavior
