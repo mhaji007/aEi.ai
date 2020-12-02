@@ -5,7 +5,10 @@ function affect() {
   return (
     <div>
       <div id="data_structures_affect" className="card">
-        <div className="card-header card-header-secondary" style={{background:"linear-gradient(60deg, #391141, #8e24aa)"}}>
+        <div
+          className="card-header card-header-secondary"
+          style={{ background: "linear-gradient(60deg, #391141, #8e24aa)" }}
+        >
           <h3 id="h3_affect_1" className="my-0 text-white">
             Affect
           </h3>

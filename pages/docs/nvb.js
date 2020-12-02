@@ -4,7 +4,10 @@ import DocsLayout from "../../components/layouts/docs";
 function nvb() {
   return (
     <div id="data_structures_nvb" className="card">
-      <div className="card-header card-header-secondary">
+      <div
+        className="card-header card-header-secondary "
+        style={{ background: "linear-gradient(60deg, #391141, #8e24aa)" }}
+      >
         <h3 id="h3_nvb_1" className="my-0 text-white">
           Nonverbal Behavior
         </h3>
@@ -176,176 +179,185 @@ function nvb() {
                     Embarrassed facial expression (AU12 + AU52 + AU62 + AU64)
                   </td>
                 </tr>
-                {/* <!--Eye Gaze--> */}
-                <tr>
-                  <thead className="thead-dark">
-                    <th colspan="2" className="text-center">
-                      <strong>Eye Gazes</strong>
-                    </th>
-                  </thead>
-                  <thead className="thead-light">
-                    <th className="text-nowrap">
-                      <strong>Name</strong>
-                    </th>
-                    <th className="text-nowrap">
-                      <strong>Description</strong>
-                    </th>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td id="td_txt_51">GAZE_AWAY_FROM_HEARER</td>
-                      <td id="td_txt_52">AU61 or AU62</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_53">GAZE_TOWARDS_HEARER</td>
-                      <td id="td_txt_54">AU0</td>
-                    </tr>
-                  </tbody>
-                </tr>
-                {/* <!--Hand Gestures--> */}
-                <tr>
-                  <thead className="thead-dark">
-                    <th colspan="2" className="text-center">
-                      <strong>Hand Gesture</strong>
-                    </th>
-                  </thead>
-                  <thead className="thead-light">
-                    <th className="text-nowrap">
-                      <strong>Name</strong>
-                    </th>
-                    <th className="text-nowrap">
-                      <strong>Description</strong>
-                    </th>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td id="td_txt_55">HAND_FLICK</td>
-                      <td id="td_txt_56">
-                        A quick and short movement, usually from the wrist or
-                        hand
-                      </td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_57">HAND_POINT_SELF</td>
-                      <td id="td_txt_58">
-                        Hand and/or fingers pointing to self
-                      </td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_59">HAND_POINT_OTHER</td>
-                      <td id="td_txt_60">
-                        Hand and/or fingers pointing to hearer
-                      </td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_61">HAND_QUESTION</td>
-                      <td id="td_txt_62">
-                        Hand gesture when a question is being asked
-                      </td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_63">HAND_COMPARISON</td>
-                      <td id="td_txt_64">
-                        Hand gesture when comparing two things
-                      </td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_65">HAND_CONTRAST</td>
-                      <td id="td_txt_66">
-                        Hand gesture when saying contrasting phrases
-                      </td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_67">HAND_NEGATION</td>
-                      <td id="td_txt_68">
-                        Hand gesture when a negation is in the sentence
-                      </td>
-                    </tr>
-                  </tbody>
-                </tr>
-                {/* <!--Head Gestures--> */}
-                <tr>
-                  <thead className="thead-dark">
-                    <th colspan="2" className="text-center">
-                      <strong>Head Gesture</strong>
-                    </th>
-                  </thead>
-                  <thead className="thead-light">
-                    <th className="text-nowrap">
-                      <strong>Name</strong>
-                    </th>
-                    <th className="text-nowrap">
-                      <strong>Description</strong>
-                    </th>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td id="td_txt_69">HEAD_NOD</td>
-                      <td id="td_txt_70">AUM59</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_71">HEAD_SHAKE</td>
-                      <td id="td_txt_72">AUM60</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_73">HEAD_SWEEP</td>
-                      <td id="td_txt_74">Sweeping head from side to side</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_75">AU51</td>
-                      <td id="td_txt_76">Head turn to the left</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_77">AU52</td>
-                      <td id="td_txt_78">Head turn to the right</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_79">AU55</td>
-                      <td id="td_txt_80">Head tilt to the left</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_81">AU56</td>
-                      <td id="td_txt_82">Head tilt to the right</td>
-                    </tr>
-                  </tbody>
-                </tr>
-                {/* <!--Body Gestures--> */}
-                <tr>
-                  <thead className="thead-dark">
-                    <th colspan="2" className="text-center">
-                      <strong>Body Gesture</strong>
-                    </th>
-                  </thead>
-                  <thead className="thead-light">
-                    <th className="text-nowrap">
-                      <strong>Name</strong>
-                    </th>
-                    <th className="text-nowrap">
-                      <strong>Description</strong>
-                    </th>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td id="td_txt_83">BODY_LEAN_LEFT</td>
-                      <td id="td_txt_84">Body lean to the left</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_85">BODY_LEAN_RIGHT</td>
-                      <td id="td_txt_86">Body lean to the right</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_87">BODY_LEAN_FORWARD</td>
-                      <td id="td_txt_88">Body lean forward</td>
-                    </tr>
-                    <tr>
-                      <td id="td_txt_89">BODY_LEAN_BACKWARD</td>
-                      <td id="td_txt_90">Body lean backward</td>
-                    </tr>
-                  </tbody>
-                </tr>
               </tbody>
             </table>
           </div>
+        </div>
+        {/* <!--Eye Gaze--> */}
+
+        {/* <!--Affect data structure--> */}
+        <div className="d-flex justify-content-center">
+          <table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
+            <thead className="thead-dark">
+              <th colspan="2" className="text-center">
+                <strong>Eye Gazes</strong>
+              </th>
+            </thead>
+            <thead className="thead-light">
+              <th className="text-nowrap">
+                <strong>Name</strong>
+              </th>
+              <th className="text-nowrap">
+                <strong>Description</strong>
+              </th>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="td_txt_51">GAZE_AWAY_FROM_HEARER</td>
+                <td id="td_txt_52">AU61 or AU62</td>
+              </tr>
+              <tr>
+                <td id="td_txt_53">GAZE_TOWARDS_HEARER</td>
+                <td id="td_txt_54">AU0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        {/* <!--Hand Gestures--> */}
+
+        <div className="d-flex justify-content-center">
+          <table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
+            <thead className="thead-dark">
+              <th colspan="2" className="text-center">
+                <strong>Hand Gesture</strong>
+              </th>
+            </thead>
+            <thead className="thead-light">
+              <th className="text-nowrap">
+                <strong>Name</strong>
+              </th>
+              <th className="text-nowrap">
+                <strong>Description</strong>
+              </th>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="td_txt_55">HAND_FLICK</td>
+                <td id="td_txt_56">
+                  A quick and short movement, usually from the wrist or hand
+                </td>
+              </tr>
+              <tr>
+                <td id="td_txt_57">HAND_POINT_SELF</td>
+                <td id="td_txt_58">Hand and/or fingers pointing to self</td>
+              </tr>
+              <tr>
+                <td id="td_txt_59">HAND_POINT_OTHER</td>
+                <td id="td_txt_60">Hand and/or fingers pointing to hearer</td>
+              </tr>
+              <tr>
+                <td id="td_txt_61">HAND_QUESTION</td>
+                <td id="td_txt_62">
+                  Hand gesture when a question is being asked
+                </td>
+              </tr>
+              <tr>
+                <td id="td_txt_63">HAND_COMPARISON</td>
+                <td id="td_txt_64">Hand gesture when comparing two things</td>
+              </tr>
+              <tr>
+                <td id="td_txt_65">HAND_CONTRAST</td>
+                <td id="td_txt_66">
+                  Hand gesture when saying contrasting phrases
+                </td>
+              </tr>
+              <tr>
+                <td id="td_txt_67">HAND_NEGATION</td>
+                <td id="td_txt_68">
+                  Hand gesture when a negation is in the sentence
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        {/* <!--Head Gestures--> */}
+
+        <div className="d-flex justify-content-center">
+          <table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
+            <thead className="thead-dark">
+              <th colspan="2" className="text-center">
+                <strong>Head Gesture</strong>
+              </th>
+            </thead>
+            <thead className="thead-light">
+              <th className="text-nowrap">
+                <strong>Name</strong>
+              </th>
+              <th className="text-nowrap">
+                <strong>Description</strong>
+              </th>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="td_txt_69">HEAD_NOD</td>
+                <td id="td_txt_70">AUM59</td>
+              </tr>
+              <tr>
+                <td id="td_txt_71">HEAD_SHAKE</td>
+                <td id="td_txt_72">AUM60</td>
+              </tr>
+              <tr>
+                <td id="td_txt_73">HEAD_SWEEP</td>
+                <td id="td_txt_74">Sweeping head from side to side</td>
+              </tr>
+              <tr>
+                <td id="td_txt_75">AU51</td>
+                <td id="td_txt_76">Head turn to the left</td>
+              </tr>
+              <tr>
+                <td id="td_txt_77">AU52</td>
+                <td id="td_txt_78">Head turn to the right</td>
+              </tr>
+              <tr>
+                <td id="td_txt_79">AU55</td>
+                <td id="td_txt_80">Head tilt to the left</td>
+              </tr>
+              <tr>
+                <td id="td_txt_81">AU56</td>
+                <td id="td_txt_82">Head tilt to the right</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        {/* <!--Body Gestures--> */}
+
+        <div className="d-flex justify-content-center">
+          <table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
+            <thead className="thead-dark">
+              <th colspan="2" className="text-center">
+                <strong>Body Gesture</strong>
+              </th>
+            </thead>
+            <thead className="thead-light">
+              <th className="text-nowrap">
+                <strong>Name</strong>
+              </th>
+              <th className="text-nowrap">
+                <strong>Description</strong>
+              </th>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="td_txt_83">BODY_LEAN_LEFT</td>
+                <td id="td_txt_84">Body lean to the left</td>
+              </tr>
+              <tr>
+                <td id="td_txt_85">BODY_LEAN_RIGHT</td>
+                <td id="td_txt_86">Body lean to the right</td>
+              </tr>
+              <tr>
+                <td id="td_txt_87">BODY_LEAN_FORWARD</td>
+                <td id="td_txt_88">Body lean forward</td>
+              </tr>
+              <tr>
+                <td id="td_txt_89">BODY_LEAN_BACKWARD</td>
+                <td id="td_txt_90">Body lean backward</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
