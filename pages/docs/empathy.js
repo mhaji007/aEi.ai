@@ -1,5 +1,7 @@
 import React from "react";
 import DocsLayout from "../../components/layouts/docs";
+import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
 
 function empathy() {
   return (
@@ -25,50 +27,53 @@ function empathy() {
             both users are engaged.
           </p>
           <div className="d-flex justify-content-center">
-            <table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
-              <thead className="thead-dark">
-                <th>
+            <Table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
+              <Thead className="thead-dark">
+                <Tr>
+
+                <Th>
                   <strong>Property</strong>
-                </th>
-                <th>
+                </Th>
+                <Th>
                   <strong>Type</strong>
-                </th>
-                <th>
+                </Th>
+                <Th>
                   <strong>Default</strong>
-                </th>
-                <th>
+                </Th>
+                <Th>
                   <strong>Description</strong>
-                </th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td id="td_empathy_1">empathyId</td>
-                  <td id="td_empathy_2">String</td>
-                  <td id="td_empathy_3"></td>
-                  <td id="td_empathy_4">
+                </Th>
+                </Tr>
+              </Thead>
+              <Tbody>
+                <Tr>
+                  <Td id="td_empathy_1">empathyId</Td>
+                  <Td id="td_empathy_2">String</Td>
+                  <Td id="td_empathy_3"></Td>
+                  <Td id="td_empathy_4">
                     Unique ID of user's empathy towards the target user
-                  </td>
-                </tr>
-                <tr>
-                  <td id="td_empathy_9">targetUserId</td>
-                  <td id="td_empathy_10">String</td>
-                  <td id="td_empathy_11"></td>
-                  <td id="td_empathy_12">Unique user ID of the target user</td>
-                </tr>
-                <tr>
-                  <td id="td_empathy_13">affect</td>
-                  <td id="td_empathy_14">
+                  </Td>
+                </Tr>
+                <Tr>
+                  <Td id="td_empathy_9">targetUserId</Td>
+                  <Td id="td_empathy_10">String</Td>
+                  <Td id="td_empathy_11"></Td>
+                  <Td id="td_empathy_12">Unique user ID of the target user</Td>
+                </Tr>
+                <Tr>
+                  <Td id="td_empathy_13">affect</Td>
+                  <Td id="td_empathy_14">
                     <a href="#data_structures_affect">Affect</a>
-                  </td>
-                  <td id="td_empathy_15" className="text-nowrap">
+                  </Td>
+                  <Td id="td_empathy_15" className="text-nowrap">
                     Default <a href="#data_structures_affect">Affect</a>
-                  </td>
-                  <td id="td_empathy_16">
+                  </Td>
+                  <Td id="td_empathy_16">
                     User's adapted affective state to the target user
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                  </Td>
+                </Tr>
+              </Tbody>
+            </Table>
           </div>
         </div>
       </div>

@@ -8,27 +8,31 @@ const DocsLayout = ({ children }) => (
     <div className="main">{children}</div>
 
     <style jsx>{`
-      .docs-container {
-        display: flex;
-      }
-      .sidebar {
+
+    .docs-container {
+      display: flex;
+    }
+
+.main {
+  // padding: 20px;
+  flex: 0 1 auto;
+  overflow-y:auto;
+  height:100vh;
+}
+a {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.sidebar {
         width: 200px;
         padding: 20px;
         background: #fafafa;
         overflow-y: auto;
         flex: 0 0 170px;
       }
-      .main {
-        padding: 20px;
-        flex: 0 1 auto;
-        overflow-y:auto;
-      }
-      a {
-        display: block;
-        font-size: 16px;
-        margin-bottom: 5px;
-      }
-    `}</style>
+`}</style>
   </div>
 );
 

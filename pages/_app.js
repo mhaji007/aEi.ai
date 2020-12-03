@@ -3,8 +3,11 @@ import App from "next/app";
 import MainLayout from "../components/layouts/main";
 import DefaultLayout from "../components/layouts/default";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "antd/dist/antd.css";
 import Head from "next/head";
 import "./index.scss";
+import './Layout.css';
+
 
 class MyApp extends App {
   render() {
