@@ -1,5 +1,7 @@
 import React from "react";
 import DocsLayout from "../../components/layouts/docs";
+import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
 
 function impression() {
   return (
@@ -25,51 +27,55 @@ function impression() {
           </p>
           {/* <!--Impression data structure--> */}
           <div className="d-flex justify-content-center">
-            <table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
-              <thead className="thead-dark">
-                <th>
+            <Table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
+              <Thead className="thead-dark">
+                <Tr>
+
+
+                <Th>
                   <strong>Property</strong>
-                </th>
-                <th>
+                </Th>
+                <Th>
                   <strong>Type</strong>
-                </th>
-                <th>
+                </Th>
+                <Th>
                   <strong>Default</strong>
-                </th>
-                <th>
+                </Th>
+                <Th>
                   <strong>Description</strong>
-                </th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td id="td_impres_1">impressionId</td>
-                  <td id="td_impres_2">String</td>
-                  <td id="td_impres_3"></td>
-                  <td id="td_impres_4">
+                </Th>
+                </Tr>
+              </Thead>
+              <Tbody>
+                <Tr>
+                  <Td id="td_impres_1">impressionId</Td>
+                  <Td id="td_impres_2">String</Td>
+                  <Td id="td_impres_3"></Td>
+                  <Td id="td_impres_4">
                     Unique ID of observer user's impression of the target user
-                  </td>
-                </tr>
-                <tr>
-                  <td id="td_impres_9">targetUserId</td>
-                  <td id="td_impres_10">String</td>
-                  <td id="td_impres_11"></td>
-                  <td id="td_impres_12">Unique user ID of the target user</td>
-                </tr>
-                <tr>
-                  <td id="td_impres_13">affect</td>
-                  <td id="td_impres_14">
+                  </Td>
+                </Tr>
+                <Tr>
+                  <Td id="td_impres_9">targetUserId</Td>
+                  <Td id="td_impres_10">String</Td>
+                  <Td id="td_impres_11"></Td>
+                  <Td id="td_impres_12">Unique user ID of the target user</Td>
+                </Tr>
+                <Tr>
+                  <Td id="td_impres_13">affect</Td>
+                  <Td id="td_impres_14">
                     <a href="#data_structures_affect">Affect</a>
-                  </td>
-                  <td id="td_impres_15" className="text-nowrap">
+                  </Td>
+                  <Td id="td_impres_15" className="text-nowrap">
                     Default <a href="#data_structures_affect">Affect</a>
-                  </td>
-                  <td id="td_impres_16">
+                  </Td>
+                  <Td id="td_impres_16">
                     Observer user's impression of the target user's affective
                     state
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                  </Td>
+                </Tr>
+              </Tbody>
+            </Table>
           </div>
         </div>
       </div>

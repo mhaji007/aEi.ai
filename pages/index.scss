@@ -14,10 +14,14 @@ body {
   background-color: #fefefe;
 }
 
-// .main {
-//   padding: 20px;
-//   flex: 0 1 auto;
+// .ant-layout-sider.ant-layout-sider-dark.site-layout-background {
+//   margin: 0 !important;
 // }
+
+.main {
+  // padding: 20px;
+  flex: 0 1 auto;
+}
 
 // a {
 //   text-decoration: none;
@@ -172,3 +176,95 @@ body {
 //   transition: all 0.5s ease;
 // }
 
+.ant-menu > .ant-menu-item:hover,
+.ant-menu > .ant-menu-submenu:hover,
+.ant-menu > .ant-menu-item-active,
+.ant-menu > .ant-menu-title:hover,
+.ant-menu > .ant-menu-title-active,
+.ant-menu > .ant-menu-submenu-active,
+.ant-menu > .ant-menu-item-open,
+.ant-menu > .ant-menu-submenu-open,
+.ant-menu > .ant-menu-item-selected,
+.ant-menu > .ant-menu-submenu-selected {
+  color: #4a2652;
+}
+
+.ant-menu .ant-menu-item-selected,
+a::before {
+  background-color: transparent;
+}
+
+.ant-menu-item a:hover, .ant-menu-item a:active {
+
+  color: #4a2652;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-right: none;
+}
+
+.ant-menu-submenu-title:hover {
+  color: #4a2652;
+}
+
+.ant-menu-submenu-arrow::after,
+.ant-menu-submenu-arrow::before {
+  color: #4a2652;
+}
+
+.ant-menu-submenu-arrow .antd-wave-shadow-color {
+}
+
+// .ant-layout-sider-children {
+//   height: 100%;
+//   overflow: auto;
+// }
+
+// a:hover {
+//   text-decoration: none !important;
+// }
+
+.ant-menu-item.ant-menu-item-selected a,
+.ant-menu-item.ant-menu-item-selected a:hover,
+.ant-menu-item.ant-menu-item-selected a:active {
+  color: #4a2652;
+}
+
+// .ant-menu-item.ant-menu-item-active.ant-menu-item-selected a {
+//   color:#4a2652;
+// }
+
+.ant-menu-item.ant-menu-item-selected a::before {
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #ffe6f8;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-active {
+
+  background-color: #ffe6f8;
+}
+.ant-menu-item-submenu-title {
+  background-color: #ffe6f8 ;
+
+}
+
+// .ant-menu-submenu:active {
+
+//   background-color: #ffe6f8 !important ;
+// }
+// .ant-menu-submenu-active:active {
+//   background-color: #ffe6f8 !important ;
+// }
+
+// .ant-menu-item-submenu-title span {
+//   background-color: #ffe6f8 !important;
+
+// }
+
+// .ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-open.ant-menu-submenu-active{
+//   background-color: #ffe6f8 !important;
+// }

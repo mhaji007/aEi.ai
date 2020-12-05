@@ -3,20 +3,23 @@ import Sidebar from "./sidebar";
 
 const DocsLayout = ({ children }) => (
   <div className="docs-container">
-    <Sidebar />
+    <Sidebar/>
 
     <div className="main">{children}</div>
 
     <style jsx>{`
 
     .docs-container {
-      display: flex;
+      display: grid;
+      grid-template-columns: auto 1fr
+
     }
 
 .main {
   // padding: 20px;
+  // flex: 0 1 auto;
   flex: 0 1 auto;
-  overflow-y:auto;
+  // overflow-y:auto;
   height:100vh;
 }
 a {
@@ -25,13 +28,13 @@ a {
   margin-bottom: 5px;
 }
 
-.sidebar {
-        width: 200px;
-        padding: 20px;
-        background: #fafafa;
-        overflow-y: auto;
-        flex: 0 0 170px;
-      }
+// .sidebar {
+//         width: 200px;
+//         padding: 20px;
+//         background: #fafafa;
+//         overflow-y: auto;
+//         flex: 0 0 170px;
+//       }
 `}</style>
   </div>
 );

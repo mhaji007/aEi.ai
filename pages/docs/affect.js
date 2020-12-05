@@ -1,5 +1,7 @@
 import React from "react";
 import DocsLayout from "../../components/layouts/docs";
+import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
+import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
 
 function affect() {
   return (
@@ -21,54 +23,56 @@ function affect() {
           </p>
           {/* <!--Affect data structure--> */}
           <div className="d-flex justify-content-center">
-            <table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
-              <thead className="thead-dark">
-                <th>
-                  <strong>Property</strong>
-                </th>
-                <th>
-                  <strong>Type</strong>
-                </th>
-                <th>
-                  <strong>Default</strong>
-                </th>
-                <th>
-                  <strong>Description</strong>
-                </th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td id="td_affect_1">emotion</td>
-                  <td id="td_affect_2">
+            <Table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
+              <Thead className="thead-dark">
+                <Tr>
+                  <Th>
+                    <strong>Property</strong>
+                  </Th>
+                  <Th>
+                    <strong>Type</strong>
+                  </Th>
+                  <Th>
+                    <strong>Default</strong>
+                  </Th>
+                  <Th>
+                    <strong>Description</strong>
+                  </Th>
+                </Tr>
+              </Thead>
+              <Tbody>
+                <Tr>
+                  <Td id="td_affect_1">emotion</Td>
+                  <Td id="td_affect_2">
                     <a href="#data_structures_emotion">Emotion</a>
-                  </td>
-                  <td id="td_affect_3" className="text-nowrap">
+                  </Td>
+                  <Td id="td_affect_3" className="text-nowrap">
                     default <a href="#data_structures_emotion">Emotion</a>
-                  </td>
-                  <td id="td_affect_4">User's emotion model</td>
-                </tr>
-                <tr>
-                  <td id="td_affect_5">mood</td>
-                  <td id="td_affect_6">
+                  </Td>
+                  <Td id="td_affect_4">User's emotion model</Td>
+                </Tr>
+                <Tr>
+                  <Td id="td_affect_5">mood</Td>
+                  <Td id="td_affect_6">
                     <a href="#data_structures_mood">Mood</a>
-                  </td>
-                  <td id="td_affect_7" className="text-nowrap">
+                  </Td>
+                  <Td id="td_affect_7" className="text-nowrap">
                     Default <a href="#data_structures_mood">Mood</a>
-                  </td>
-                  <td id="td_affect_8">User's mood model</td>
-                </tr>
-                <tr>
-                  <td id="td_affect_9">personality</td>
-                  <td id="td_affect_10">
+                  </Td>
+                  <Td id="td_affect_8">User's mood model</Td>
+                </Tr>
+                <Tr>
+                  <Td id="td_affect_9">personality</Td>
+                  <Td id="td_affect_10">
                     <a href="#data_structures_personality">Personality</a>
-                  </td>
-                  <td id="td_affect_11" className="text-nowrap">
+                  </Td>
+                  <Td id="td_affect_11" className="text-nowrap">
                     Default{" "}
                     <a href="#data_structures_personality">Personality</a>
-                  </td>
-                  <td id="td_affect_12">User's personality model</td>
-                </tr>
-                <tr>
+                  </Td>
+                  <Td id="td_affect_12">User's personality model</Td>
+                </Tr>
+                <Tr>
                   <td id="td_affect_13">satisfaction</td>
                   <td id="td_affect_14">
                     <a href="#data_structures_satisfaction">Satisfaction</a>
@@ -78,9 +82,9 @@ function affect() {
                     <a href="#data_structures_satisfaction">Satisfaction</a>
                   </td>
                   <td id="td_affect_16">User's satisfaction model</td>
-                </tr>
-              </tbody>
-            </table>
+                </Tr>
+              </Tbody>
+            </Table>
           </div>
         </div>
       </div>

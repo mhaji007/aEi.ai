@@ -1,7 +1,7 @@
 import React from "react";
 import DocsLayout from "../../components/layouts/docs";
-import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
-import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
+import { Table, Thead, Tbody, Tr, Th, Td } from "react-super-responsive-table";
+import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
 
 function empathy() {
   return (
@@ -30,19 +30,18 @@ function empathy() {
             <Table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
               <Thead className="thead-dark">
                 <Tr>
-
-                <Th>
-                  <strong>Property</strong>
-                </Th>
-                <Th>
-                  <strong>Type</strong>
-                </Th>
-                <Th>
-                  <strong>Default</strong>
-                </Th>
-                <Th>
-                  <strong>Description</strong>
-                </Th>
+                  <Th>
+                    <strong>Property</strong>
+                  </Th>
+                  <Th>
+                    <strong>Type</strong>
+                  </Th>
+                  <Th>
+                    <strong>Default</strong>
+                  </Th>
+                  <Th>
+                    <strong>Description</strong>
+                  </Th>
                 </Tr>
               </Thead>
               <Tbody>

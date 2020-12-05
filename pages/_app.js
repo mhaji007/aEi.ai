@@ -6,8 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "antd/dist/antd.css";
 import Head from "next/head";
 import "./index.scss";
-import './Layout.css';
-
+import "./Layout.css";
 
 class MyApp extends App {
   render() {
@@ -23,13 +22,15 @@ class MyApp extends App {
           />
           <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
           <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          />
           <link
             href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
             rel="stylesheet"
           />
           <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-
         </Head>
         <MainLayout>
           <Layout>
