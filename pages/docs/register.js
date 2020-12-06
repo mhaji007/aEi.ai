@@ -26,15 +26,15 @@ function register() {
                                 <p id="p_reg_3" className="mt-2 ml-4 mr-4 text-justify">In addition to the <a href="./register.html">website UI</a>, you can also use the API to register a new account in aEi.ai by making a <strong><u>POST</u></strong> request to the register API, with header parameters named <strong><u>username</u></strong>, <strong><u>password</u></strong>, <strong><u>email</u></strong>, and <strong><u>agreed</u></strong>, which means <strong>you have read and agreed to the aEi.ai <a href="./terms.html">Terms of Service</a> and <a href="./privacy-policy.html">Privacy Policy</a></strong>.</p>
                                 <div className="card-body">
                                     <div className="d-flex justify-content-center">
-                                        <table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
-                                            <thead className="thead-dark">
-                                                <th colspan="4" className="text-center"><strong>Request</strong></th>
-                                            </thead>
-                                            <thead className="thead-light">
-                                                <th className="text-nowrap"><strong>API Type</strong></th>
-                                                <th className="text-nowrap"><strong>HTTP Method</strong></th>
-                                                <th colspan="2"><strong>URL</strong></th>
-                                            </thead>
+                                        <Table className="table table-responsive table-striped w-auto rounded-top rounded-bottom border">
+                                            <Thead className="thead-dark">
+                                                <Th colspan="4" className="text-center"><strong>Request</strong></Th>
+                                            </Thead>
+                                            <Thead className="thead-light">
+                                                <Th className="text-nowrap"><strong>API Type</strong></Th>
+                                                <Th className="text-nowrap"><strong>HTTP Method</strong></Th>
+                                                <Th colspan="2"><strong>URL</strong></Th>
+                                            </Thead>
                                             <tbody>
                                                 <tr>
                                                     <td id="td_reg_1">FREE</td>
@@ -96,7 +96,7 @@ function register() {
                                                     </tbody>
                                                 </tr>
                                             </tbody>
-                                        </table>
+                                        </Table>
                                     </div>
                                 </div>
 

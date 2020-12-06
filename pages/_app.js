@@ -30,6 +30,7 @@ class MyApp extends App {
             href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
             rel="stylesheet"
           />
+          <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
           <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         </Head>
         <MainLayout>

@@ -186,7 +186,9 @@ function Sidebar({ items }) {
               title=" API"
             >
               <Menu.Item key="18">
-                <a> Register New Account</a>
+                            <Link href="./register">
+                  <a>Register New Account</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="19">
                 <a> Authenticate Client</a>
