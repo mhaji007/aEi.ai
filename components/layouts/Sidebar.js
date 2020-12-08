@@ -38,7 +38,7 @@ function Sidebar({ items }) {
         <Sider
           className="site-layout-background "
           width={255}
-          breakpoint="sm"
+          breakpoint="md"
           collapsedWidth="0"
           // style={{
           //   height: "100%",
@@ -51,17 +51,18 @@ function Sidebar({ items }) {
             console.log(collapsed, type);
           }}
         >
-          <div className="logo" style={{ marginBottom:"10px",marginTop:"10px" }} >
+          <div
+            className="logo"
+            style={{ marginBottom: "10px", marginTop: "10px" }}
+          >
             <img
-            className="d-block mx-auto"
+              className="d-block mx-auto"
               src="../../logo.png"
               id="logo"
               alt="aEi.ai"
               style={{
                 height: "40px",
                 width: "auto",
-
-
               }}
             />
             {/* <Icon component={() => (<img src="/image.svg" />)} /> */}
@@ -173,8 +174,8 @@ function Sidebar({ items }) {
                 report_problem
               </i>{" "}
               <Link href="./error-handling">
-                  <a>Error Handling</a>
-                </Link>
+                <a>Error Handling</a>
+              </Link>
             </Menu.Item>
             <SubMenu
               key="sub2"
@@ -186,12 +187,14 @@ function Sidebar({ items }) {
               title=" API"
             >
               <Menu.Item key="18">
-                            <Link href="./register">
+                <Link href="./register">
                   <a>Register New Account</a>
                 </Link>
               </Menu.Item>
               <Menu.Item key="19">
-                <a> Authenticate Client</a>
+                <Link href="./authenticate-client">
+                  <a>Authenticate Client</a>
+                </Link>
               </Menu.Item>
               <br />
               <Menu.Item key="20">

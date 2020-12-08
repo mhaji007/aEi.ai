@@ -218,13 +218,11 @@ function register() {
 
         <p id="p_reg_4" className="mt-2 text-justify">
           Sample query would look like the following:{" "}
-
         </p>
-          <code className="prettyprint">
-              curl -X POST
-              'https://aei.ai/register' -H 'username: &lt;your
-              username&gt;' -H 'password: &lt;your password&gt;' -H 'email:
-              &lt;your email&gt;' -H 'agreed: true'
+        <code className="prettyprint">
+          curl -X POST 'https://aei.ai/register' -H 'username: &lt;your
+          username&gt;' -H 'password: &lt;your password&gt;' -H 'email: &lt;your
+          email&gt;' -H 'agreed: true'
         </code>
         <p id="p_reg_5" className="mt-2 text-justify">
           {/* Expected output looks like this:
