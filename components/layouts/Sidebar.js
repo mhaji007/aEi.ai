@@ -203,7 +203,9 @@ function Sidebar({ items }) {
                 </Link>
               </Menu.Item>
               <Menu.Item key="21">
-                <a> Get Users</a>
+                <Link href="./get-users">
+                  <a>Get Users</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="22">
                 <a> Get Emotion</a>
