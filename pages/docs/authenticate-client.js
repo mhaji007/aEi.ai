@@ -208,11 +208,11 @@ function authenticateClient() {
           </div>
         </div>
 
-        <p id="p_auth_3" className="mt-2 ml-4 mr-4 text-justify">
+        <p id="p_auth_4" className="mt-2 ml-4 mr-4 text-justify">
           Knowing the Base64 encoding of your username:password, you can get an
           access token as follows:
         </p>
-        <p id="p_auth_4">
+        <p id="p_auth_5">
           <code className="prettyprint">
             credentials=$(echo -n &lt;YOUR USERNAME&gt;:&lt;YOUR PASSWORD&gt; |
             base64) curl -X POST
@@ -220,7 +220,7 @@ function authenticateClient() {
             "Authorization: Basic $credentials"
           </code>
         </p>
-        <p id="p_auth_5" className="mt-2 ml-4 mr-4 text-justify">
+        <p id="p_auth_6" className="mt-2 ml-4 mr-4 text-justify">
           Expected output looks like this:
           {/* <pre className="prettyprint">
 

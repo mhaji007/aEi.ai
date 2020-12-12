@@ -198,7 +198,9 @@ function Sidebar({ items }) {
               </Menu.Item>
               <br />
               <Menu.Item key="20">
-                <a> Create New User</a>
+                <Link href="./create-new-user">
+                  <a>Create New User</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="21">
                 <a> Get Users</a>
