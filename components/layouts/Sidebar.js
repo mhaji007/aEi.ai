@@ -239,7 +239,7 @@ function Sidebar({ items }) {
               </Menu.Item>
               <br />
               <Menu.Item key="28">
-                <Link href="./create-interaction">
+                <Link href="./create-new-interaction">
                   <a>Create New Interaction</a>
                 </Link>
               </Menu.Item>
