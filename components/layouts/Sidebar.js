@@ -208,61 +208,97 @@ function Sidebar({ items }) {
                 </Link>
               </Menu.Item>
               <Menu.Item key="22">
-                <a> Get Emotion</a>
+                <Link href="./get-emotion">
+                  <a>Get Emotion</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="23">
-                <a> Get Mood</a>
+                <Link href="./get-mood">
+                  <a>Get Mood</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="24">
-                <a> Get Personality</a>
+                <Link href="./get-personality">
+                  <a>Get Personality</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="25">
-                <a> Get Satisfaction</a>
+                <Link href="./get-satisfaction">
+                  <a>Get Satisfaction</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="26">
-                <a> Get Empathy</a>
+                <Link href="./get-empathy">
+                  <a>Get Empathy</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="27">
-                <a> Get Social Perception</a>
+                <Link href="./get-social-perception">
+                  <a>Get Social Perception</a>
+                </Link>
               </Menu.Item>
               <br />
               <Menu.Item key="28">
-                <a> Create New Interaction</a>
+                <Link href="./create-interaction">
+                  <a>Create New Interaction</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="29">
-                <a> Get Interactions</a>
+                <Link href="./get-interactions">
+                  <a>Get Interactions</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="30">
-                <a> Add User to Interaction</a>
+                <Link href="./add-user-to-interaction">
+                  <a>Add User to Interaction</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="31">
-                <a> Remove User from Interaction</a>
+                <Link href="./remove-user-from-interaction">
+                  <a>Remove User from Interaction</a>
+                </Link>
               </Menu.Item>
               <br />
               <Menu.Item key="32">
-                <a> Send Text</a>
+                <Link href="./send-text">
+                  <a>Send Text</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="33">
-                <a> Send Image</a>
+                <Link href="./send-image">
+                  <a>send Image</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="34">
-                <a> Analyze Multiple Inputs</a>
+                <Link href="./analyze-multiple-inputs">
+                  <a>Analyze Multiple Inputs</a>
+                </Link>
               </Menu.Item>
               <br />
               <Menu.Item key="35">
-                <a> Paid Queries</a>
+                <Link href="./paid-queries">
+                  <a>Paid Queries</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="36">
-                <a> Endpoint Queries</a>
+                <Link href="./endpoint-queries">
+                  <a>Endpoint Queries</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="37">
-                <a> Free Queries</a>
+                <Link href="./free-queries">
+                  <a>Free Queries</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="38">
-                <a> Remaining Free Queries</a>
+                <Link href="./remaining-free-queries">
+                  <a>Remaining Free Queries</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="39">
-                <a> Update Account</a>
+                <Link href="./update-account">
+                  <a>Update Account</a>
+                </Link>
               </Menu.Item>
             </SubMenu>
             <Menu.Item key="40">
@@ -277,20 +313,28 @@ function Sidebar({ items }) {
               title=" Sample Code"
             >
               <Menu.Item key="41">
-                <a> Java</a>
+                <Link href="./java">
+                  <a>Java</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="42">
-                <a> Python</a>
+                <Link href="./python">
+                  <a>Python</a>
+                </Link>
               </Menu.Item>
               <Menu.Item key="43">
-                <a> CURL</a>
+                <Link href="./curl">
+                  <a>CURL</a>
+                </Link>
               </Menu.Item>
             </SubMenu>
             <Menu.Item key="44">
               <i className="material-icons" style={{ verticalAlign: "middle" }}>
                 live_help
               </i>{" "}
-              Help
+              <Link href="/help">
+              <a>Help</a>
+              </Link>
             </Menu.Item>
           </Menu>
         </Sider>
