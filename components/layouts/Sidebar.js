@@ -260,12 +260,12 @@ function Sidebar({ items }) {
               </Menu.Item>
               <br />
               <Menu.Item key="32">
-                <Link href="./send-text">
+                <Link href="./send-text-to-interaction">
                   <a>Send Text</a>
                 </Link>
               </Menu.Item>
               <Menu.Item key="33">
-                <Link href="./send-image">
+                <Link href="./send-image-to-interaction">
                   <a>send Image</a>
                 </Link>
               </Menu.Item>
