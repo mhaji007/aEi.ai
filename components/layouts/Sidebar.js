@@ -305,7 +305,9 @@ function Sidebar({ items }) {
               <i className="material-icons" style={{ verticalAlign: "middle" }}>
                 call_split
               </i>{" "}
-              Versioning
+              <Link href="./versioning">
+                <a>Versioning</a>
+              </Link>
             </Menu.Item>
             <SubMenu
               key="sub3"
@@ -333,7 +335,7 @@ function Sidebar({ items }) {
                 live_help
               </i>{" "}
               <Link href="/help">
-              <a>Help</a>
+                <a>Help</a>
               </Link>
             </Menu.Item>
           </Menu>
